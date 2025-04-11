@@ -98,8 +98,6 @@ values('PS5','Juego',15,1500,11);
 
 select * from productos;
 
-select * from usuarios;
-
 -- inserciones en ventas
 
 insert into ventas(id_usuario,total) values(1,2200);
@@ -166,4 +164,4 @@ insert into venta_producto(id_venta,id_producto,cantidad) values(11,3,3);
 
 insert into venta_producto(id_venta,id_producto,cantidad) values(12,3,3);
 
-select * from venta_producto order by 2,3;
+select * from venta_producto;
