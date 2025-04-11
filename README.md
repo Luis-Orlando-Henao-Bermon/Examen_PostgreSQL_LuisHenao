@@ -29,6 +29,7 @@ Allí deberas abrir los archivos y ejecutarlos en el siguiente ordern
 - 📌 procedureAndFunctions.sql → Procedimiento almacenado para gestionar ventas con transacciones.
 
 Para ejecutar un procedimiento debes seleccionar todo el procedimiento y posteriormente ejecutarlo presionando alt+f5.
+
 ![image](https://github.com/user-attachments/assets/28549975-1ddb-4f01-af3e-d4a5a21c1c13)
 
 Y para ejecutarlo debes llamar el procedimiento de la siguiente manera:
