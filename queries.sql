@@ -21,4 +21,4 @@ select * from ventas where fecha<=current_date and fecha>current_date-3;
 --Identificar clientes que no han comprado en los últimos 6 meses.
 
 select u.* from usuarios u left join ventas v on u.id=v.id_usuario 
-where v.id_usuario not in (select id_usuario from ventas where fecha>='2024-10-01' and fecha<'2025-04-01') and v.id_usuario is null;
+where v.id_usuario not in (select id_usuario from ventas where fecha>='2024-10-01' and fecha<'2025-04-01') and v.id_usuario is null and u.tipo='Usuario';
