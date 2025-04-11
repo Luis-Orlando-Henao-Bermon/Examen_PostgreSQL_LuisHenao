@@ -45,6 +45,9 @@ values('Alejandra','Maria','Machuca','Machuca','alejita23@gmail.com','Usuario');
 insert into usuarios(primer_nombre,segundo_nombre,primer_apellido,	segundo_apellido,	correo,	tipo) 
 values('Jhonatan','Andres','Omaña','Gomez','jhonatan326@gmail.com','Proveedor');
 
+insert into usuarios(primer_nombre,segundo_nombre,primer_apellido,	segundo_apellido,	correo,	tipo) 
+values('Jhoan','Striven','Bermon','Garay','jhoan33@gmail.com','Usuario'); 
+
 select * from usuarios;
 
 
