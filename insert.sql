@@ -73,7 +73,7 @@ insert into productos(nombre,categoria,stock,precio,id_proveedor)
 values('Reloj Tactil','Accesorio',60,60,11);
 
 insert into productos(nombre,categoria,stock,precio,id_proveedor) 
-values('Diadema','Accesorios',30,100,19);
+values('Diadema','Accesorios',30,100,11);
 
 insert into productos(nombre,categoria,stock,precio,id_proveedor) 
 values('Mac M2','Computador',20,2000,3);
@@ -123,9 +123,9 @@ insert into ventas(id_usuario,total) values(12,4500);
 
 insert into ventas(id_usuario,total) values(13,4500);
 
-insert into ventas(id_usuario,total) values(16,4500);
+insert into ventas(id_usuario,total) values(14,4500);
 
-insert into ventas(id_usuario,total) values(18,4500);
+insert into ventas(id_usuario,total) values(14,4500);
 
 insert into ventas(id_usuario,total) values(1,0);
 
